@@ -1,0 +1,24 @@
+name: oyun_zen_bahcesi_bonsai
+description: "Zen Bahçesi – Boşta ve Simülasyon merkez uygulamasının oyunu."
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  studio_core:
+    git:
+      url: https://github.com/taktemurr-ops/studio-core
+      ref: 921df6392b2121ffd438a286673ef9f10c988273
+  simulasyon_motoru:
+    git:
+      url: https://github.com/taktemurr-ops/simulasyon-motoru
+      ref: main
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
